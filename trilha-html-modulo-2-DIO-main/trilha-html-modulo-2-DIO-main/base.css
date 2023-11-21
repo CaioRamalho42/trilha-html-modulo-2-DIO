@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #ffff;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #ffc878;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: #ff8899;
+    min-height: 150px;
+}
+.content {
+    background-color: #f8e5d4;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #58271e;
+    min-height: 150px;
+}
